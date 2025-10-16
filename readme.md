@@ -1,7 +1,7 @@
 # VGA STM32F103 
 This is a small example of how to generate a VGA signal on the STM32F103.
 
-Before anything else, you need to understand the VGA protocol. This video [explains it well](linkaqui).
+Before anything else, you need to understand the VGA protocol. This video [explains it well](https://youtu.be/BUTHtNrpwiI?si=hduxxu8qLjxT3YDS).
 
 ## How it works
 This example uses 2 general-purpose timers and one DMA channel.
