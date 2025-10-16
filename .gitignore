@@ -1,0 +1,5 @@
+.vscode/*
+.zig-cache/*
+hold
+*.svd
+zig-out/*

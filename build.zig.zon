@@ -1,0 +1,22 @@
+.{
+    .name = .STM32F103_AT,
+    .version = "0.0.0",
+
+    .fingerprint = 0xa813d94c7e17733, // Changing this has security and trust implications.
+
+    .minimum_zig_version = "0.15.1",
+
+    .dependencies = .{
+        // I like to have the entire mono repo downloaded since I use all the tools a lot,
+        // so I use it as if it were a toolchain.
+        // You don't need to download everything, you can just download the core and the STM32 HAL by following these steps:
+        // https://microzig.tech/docs/getting-started/
+        .microzig = .{ .path = "../microzig/" },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
